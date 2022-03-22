@@ -79,7 +79,7 @@ WWW	IN	A	10.10.10.4 <br>
 ftp	IN	A	10.10.10.4 <br>	
 voip	IN	A	10.10.10.5 <br>
 
-Feito isso salva e sair do nano		
+Feito isso salvar e sair do nano		
 
 ---------------------------
 //ZONA REVERSA
