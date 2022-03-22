@@ -28,15 +28,14 @@ ls (listar os documentos na pasta acessada)
 
 nano named.config.local
 
-
-//zona direta (criando zona direta após abrir o arquivo)
+//zona direta (criando zona direta após abrir o arquivo) <br>
 zone "name.example.com" { <br>
 	type master; <br>
 	file "/etc/bind/db.name.example.com"; <br>
 }; <br>
 
 
-//zona reversa
+//zona reversa <br>
 zone "10.-in.addr.arpa" { <br>
 	type master; <br>
 	file "/etc/bind/db.10"; <br>
