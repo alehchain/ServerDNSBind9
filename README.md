@@ -76,9 +76,9 @@ Identificação do Endereço IPv6 - apaga (nao irá usar Ultima linha)
 
 ADD
 
-WWW	IN	A	10.10.10.4
-ftp	IN	A	10.10.10.4	
-voip	IN	A	10.10.10.5
+WWW	IN	A	10.10.10.4 <br>
+ftp	IN	A	10.10.10.4 <br>	
+voip	IN	A	10.10.10.5 <br>
 
 Feito isso salva e sair do nano		
 
