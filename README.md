@@ -1,15 +1,17 @@
 # ServerDNSBind9
 Implementação e Avaliação de um Serviço de DNS utilizando Bind9
+---------------------------
 
 Server DNS Ubuntun - Bind9
 
-REDE: 10.10.10.0/25
+---------------------------
+Configurações que iremos usar
 
+REDE: 10.10.10.0/25
 GATEWAY: 10.10.10.1
 DNS: 10.10.10.3
 HTTP: 10.10.10.4
 VOIP: 10.10.10.5
----------------------------
 
 Sudo su 
 
@@ -17,7 +19,7 @@ apt-get update
 
 apt-get install bind9
 
-Confirurar Rede.
+Configurar Rede.
 
 ---------------------------
 
@@ -94,8 +96,8 @@ Troca os localhost por name.example.com
 //Feito isso Agora restart o bind9 - 
 
 service bind9 restart (usar esse!)
-/etc/init.d/bind9 restart (restarta)
 
+/etc/init.d/bind9 restart (restarta)
 /etc/init.d/bind9 status (ver o status)
 
 ---------------------------
