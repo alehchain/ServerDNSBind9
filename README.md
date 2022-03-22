@@ -113,12 +113,12 @@ nameserver 10.10.10.3   (Save , exit).
 
 AGORA É TESTAR !!!
 
-host name.example.com
-nslookup name.example.com
-host www.name.example.com
-host ftp.name.example.com
-host voip name.example.com
-nslookup voip.name.example.com
+host name.example.com <br>
+nslookup name.example.com <br>
+host www.name.example.com <br>
+host ftp.name.example.com <br>
+host voip name.example.com <br>
+nslookup voip.name.example.com <br>
 
 
 
